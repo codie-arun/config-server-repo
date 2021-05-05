@@ -1,0 +1,15 @@
+---
+spring:
+	profiles:
+		- dev
+
+app:
+	msg: welcome to dev
+
+---
+spring:
+	profiles:
+		- test
+
+app:
+	msg: welcome to test
